@@ -1,0 +1,311 @@
+<?php 
+include"header.php";
+include"sidebar.php";
+?>
+
+                <!-- page content -->
+                <div class="dev-page-content">                    
+                    <!-- page content container -->
+                    <div class="container">
+                        
+                        <!-- page title -->
+                        <div class="page-title">
+                            <h1>Static Tables</h1>
+                            <p>Default samples of table using</p>
+                            
+                            <ul class="breadcrumb">
+                                <li><a href="#">Dashboard</a></li>
+                                <li><a href="#">Add Recipies</a></li>
+                            </ul>
+                        </div>                        
+                        
+
+
+
+                        <div class="wrapper wrapper-white">
+                            
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped table-sortable">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Position</th>
+                                            <th>Office</th>
+                                            <th>Age</th>
+                                            <th>Start date</th>
+                                            <th>Salary</th>
+                                        </tr>
+                                    </thead>                               
+                                    <tbody>
+                                        <tr>
+                                            <td>Tiger Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>61</td>
+                                            <td>2011/04/25</td>
+                                            <td>$320,800</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Garrett Winters</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td>63</td>
+                                            <td>2011/07/25</td>
+                                            <td>$170,750</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ashton Cox</td>
+                                            <td>Junior Technical Author</td>
+                                            <td>San Francisco</td>
+                                            <td>66</td>
+                                            <td>2009/01/12</td>
+                                            <td>$86,000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cedric Kelly</td>
+                                            <td>Senior Javascript Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td>22</td>
+                                            <td>2012/03/29</td>
+                                            <td>$433,060</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Airi Satou</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td>33</td>
+                                            <td>2008/11/28</td>
+                                            <td>$162,700</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Brielle Williamson</td>
+                                            <td>Integration Specialist</td>
+                                            <td>New York</td>
+                                            <td>61</td>
+                                            <td>2012/12/02</td>
+                                            <td>$372,000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Herrod Chandler</td>
+                                            <td>Sales Assistant</td>
+                                            <td>San Francisco</td>
+                                            <td>59</td>
+                                            <td>2012/08/06</td>
+                                            <td>$137,500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rhona Davidson</td>
+                                            <td>Integration Specialist</td>
+                                            <td>Tokyo</td>
+                                            <td>55</td>
+                                            <td>2010/10/14</td>
+                                            <td>$327,900</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Colleen Hurst</td>
+                                            <td>Javascript Developer</td>
+                                            <td>San Francisco</td>
+                                            <td>39</td>
+                                            <td>2009/09/15</td>
+                                            <td>$205,500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sonya Frost</td>
+                                            <td>Software Engineer</td>
+                                            <td>Edinburgh</td>
+                                            <td>23</td>
+                                            <td>2008/12/13</td>
+                                            <td>$103,600</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jena Gaines</td>
+                                            <td>Office Manager</td>
+                                            <td>London</td>
+                                            <td>30</td>
+                                            <td>2008/12/19</td>
+                                            <td>$90,560</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quinn Flynn</td>
+                                            <td>Support Lead</td>
+                                            <td>Edinburgh</td>
+                                            <td>22</td>
+                                            <td>2013/03/03</td>
+                                            <td>$342,000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Charde Marshall</td>
+                                            <td>Regional Director</td>
+                                            <td>San Francisco</td>
+                                            <td>36</td>
+                                            <td>2008/10/16</td>
+                                            <td>$470,600</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Haley Kennedy</td>
+                                            <td>Senior Marketing Designer</td>
+                                            <td>London</td>
+                                            <td>43</td>
+                                            <td>2012/12/18</td>
+                                            <td>$313,500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tatyana Fitzpatrick</td>
+                                            <td>Regional Director</td>
+                                            <td>London</td>
+                                            <td>19</td>
+                                            <td>2010/03/17</td>
+                                            <td>$385,750</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Michael Silva</td>
+                                            <td>Marketing Designer</td>
+                                            <td>London</td>
+                                            <td>66</td>
+                                            <td>2012/11/27</td>
+                                            <td>$198,500</td>
+                                        </tr>            
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                        </div>                        
+                        <!-- ./datatables plugin -->
+
+
+
+
+
+                        
+                        <!-- Copyright -->
+                        <div class="copyright">
+                            <div class="pull-left">
+                                &copy; 2015 <strong>Aqvatarius</strong>. All rights reserved.
+                            </div>
+                            <div class="pull-right">
+                                <a href="#">Terms of use</a> / <a href="#">Privacy Policy</a>
+                            </div>
+                        </div>
+                        <!-- ./Copyright -->
+                        
+                    </div>
+                    <!-- ./page content container -->                                       
+                </div>
+                <!-- ./page content -->                                                
+            </div>  
+            <!-- ./page container -->
+            
+            <!-- right bar -->
+            <div class="dev-page-rightbar">
+                <div class="rightbar-chat">
+
+                    <div class="rightbar-chat-frame-contacts scroll">
+                        <div class="rightbar-title">
+                            <h3>Messages</h3>
+                            <a href="#" class="btn btn-default btn-rounded rightbar-close pull-right"><span class="fa fa-times"></span></a>
+                        </div>
+                        <ul class="contacts">
+                            <li class="title">online</li>
+                            <li>
+                                <a href="#" class="status online">
+                                    <img src="assets/images/users/user_1.jpg" title="Aqvatarius"> John Doe                                            
+                                </a>
+                            </li>                                    
+                            <li>
+                                <a href="#" class="status online">
+                                    <img src="assets/images/users/user_2.jpg" title="Aqvatarius"> Shannon Freeman                                            
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="status away">
+                                    <img src="assets/images/users/user_3.jpg" title="Aqvatarius"> Devin Stephens                                            
+                                </a>
+                            </li>                                    
+                            <li>
+                                <a href="#" class="status away">
+                                    <img src="assets/images/users/user_4.jpg" title="Aqvatarius"> Marissa George                                           
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="status dont">
+                                    <img src="assets/images/users/user_5.jpg" title="Aqvatarius"> Sydney Reeves                                           
+                                </a>
+                            </li>
+                            <li class="title">offline</li>
+                            <li>
+                                <a href="#" class="status">
+                                    <img src="assets/images/users/user_6.jpg" title="Aqvatarius"> Kaitlynn Bowen                                           
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="status">
+                                    <img src="assets/images/users/user_7.jpg" title="Aqvatarius"> Karen Spencer                                            
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="status">
+                                    <img src="assets/images/users/user_8.jpg" title="Aqvatarius"> Darrell Wolfe                                            
+                                </a>
+                            </li>                                    
+                        </ul>
+                    </div>
+
+                    <div class="rightbar-chat-frame-chat">
+                        <div class="user">
+                            <div class="user-panel">
+                                <a href="#" class="btn btn-default btn-rounded rightbar-chat-close"><span class="fa fa-angle-left"></span></a>
+                                <a href="#" class="btn btn-default btn-rounded pull-right"><span class="fa fa-user"></span></a>
+                            </div>
+                            <div class="user-info">
+                                <div class="user-info-image status online">
+                                    <img src="assets/images/users/user_1.jpg">
+                                </div>
+                                <h5>Devin Stephens</h5>
+                                <span>UI/UX Designer</span>
+                            </div>
+                        </div>
+                        <div class="chat-wrapper scroll">
+                            <ul class="chat" id="rightbar_chat">
+                                <li class="inbox">
+                                    Hi, you have a second? Need to ask you something.
+                                    <span>about 1h ago</span>
+                                </li>                                    
+                                <li class="sent">
+                                    Sure i have...
+                                    <span>59min ago</span>
+                                </li>
+                                <li class="inbox">
+                                    It's about latest design you did...
+                                    <span>14min ago</span>
+                                </li>
+                                <li class="sent">
+                                    I will do my best to help you
+                                    <span>2min ago</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <form class="form" action="#" method="post" id="rightbar_chat_form">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default"><i class="fa fa-paperclip"></i></button>
+                                    </div>
+                                    <input type="text" class="form-control" name="message">
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-default">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- ./right bar -->            
+            
+                    <?php 
+include"footer.php";
+?>
+  
+         
